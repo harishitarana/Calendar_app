@@ -20,7 +20,7 @@ function Header() {
                         </li>
                         <li>
                             <a class="navbar-link portfolio-link" href="#portfolio"
-                            >Portfolio</a>
+                            >Meetings</a>
                         </li>
                         <li>
                             <a class="navbar-link contact-link" href="/contact.html">Contact</a>
