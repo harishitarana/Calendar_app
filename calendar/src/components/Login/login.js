@@ -7,8 +7,9 @@ const Login = () => {
     const navigate = useNavigate();
     const handleNavigation = () => {
 
-        navigate('/');
+        navigate('home');
     };
+
     const [errorMsg, setErrorMsg] = useState({});
     const [isSubmit, setIsSubmitted] = useState(false);
     const database = [
@@ -21,6 +22,7 @@ const Login = () => {
         uname: "invalid username",
         pass: "invalid password"
     };
+    
     const handleSubmit = (event) => 
     {
         event.preventDefault();
